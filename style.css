@@ -1,0 +1,79 @@
+/*
+Theme Name: Coraline Child
+Description: Child theme for the coraline theme 
+Author: Your name here
+Template: coraline
+*/
+
+@import url("../coraline/style.css");
+
+/*
+ * This will override certian parts of the body 
+ * and container
+ * -----------------------------------------------
+ */
+
+/* This overrides the body color */
+body {
+	background: #F66700;
+	color: #333;
+	line-height: 1;
+}
+
+/* This overrides the .two-column #container width */
+.two-column #container {
+max-width: 750px;
+}
+
+.two-column #content {
+	width: 60.99%;
+}
+
+.content-sidebar #content {
+	margin: 0 0 0 25px;
+}
+
+/* This overrides the #container background */
+#container {
+	clear: both;
+	margin: 0 auto;
+	background: white;
+	-moz-box-shadow: 0px 0px 36px #000000;
+	-webkit-box-shadow: 0px 0px 36px #000000;
+	box-shadow: 0px 0px 36px #000000;
+	border: 20px;
+	border-color: black;
+}
+
+/* This overrides the .hentry padding */
+.hentry {
+margin: 0 25px 3.4em;
+}
+
+
+/*
+ * This will override certian parts of th header
+ * -----------------------------------------------
+ */
+/* This will override the site-title color */
+#site-title a {
+	color: #CCC;
+	font-weight: bold;
+	text-decoration: none;
+}
+/* This will override the #site-description color */
+#site-description {
+	color: #CCC;
+	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+
+/* This will override the background color */
+#masthead {
+	padding: 28px 0 5px 0;
+	background: black;
+}
+
+
+
