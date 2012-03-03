@@ -5,7 +5,7 @@
 
 // The height and width of your custom header. You can hook into the theme's own filters to change these values.
 	// Add a filter to coraline_header_image_width and coraline_header_image_height to change these values.
-	define( 'HEADER_IMAGE_WIDTH', apply_filters( 'coraline_header_image_width', 750 ) );
-	define( 'HEADER_IMAGE_HEIGHT', apply_filters( 'coraline_header_image_height', 300 ) );
+	define( 'HEADER_IMAGE_WIDTH', apply_filters( 'coraline_header_image_width', 990 ) );
+	define( 'HEADER_IMAGE_HEIGHT', apply_filters( 'coraline_header_image_height', 180 ) );
 	
 ?>
